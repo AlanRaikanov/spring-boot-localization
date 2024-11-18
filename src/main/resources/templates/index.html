@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Boot Localization Example</title>
+</head>
+<body>
+    <h1 th:text="${welcomeMessage}"></h1>
+    <p th:text="${greetingMessage}"></p>
+
+    <!-- Language switch links -->
+    <a href="/?lang=en">English</a> |
+    <a href="/?lang=kk">Kazakh</a> |
+    <a href="/?lang=ru">Russian</a>
+</body>
+</html>
